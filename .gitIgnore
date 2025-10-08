@@ -1,21 +1,73 @@
-# Node modules
-node_modules/
-
-# Env files
-.env
-.env.local
-.env.*.local
-
-# Build directories
-dist/
-build/
-
+# --------------------------------------------------
 # Logs
+# --------------------------------------------------
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# VS Code
-.vscode/
+# --------------------------------------------------
+# Runtime data
+# --------------------------------------------------
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# OS files
+# --------------------------------------------------
+# Coverage directories
+# --------------------------------------------------
+coverage
+.nyc_output
+
+# --------------------------------------------------
+# Dependency directories
+# --------------------------------------------------
+node_modules/
+
+# --------------------------------------------------
+# Build directories
+# --------------------------------------------------
+dist/
+dist-ssr/
+build/
+
+# --------------------------------------------------
+# Environment variables
+# (includes nested .env files, like frontend/ipshopy/.env)
+# --------------------------------------------------
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+
+# --------------------------------------------------
+# Cache and temp files
+# --------------------------------------------------
+.npm
+.eslintcache
+.node_repl_history
+tmp/
+temp/
+
+# --------------------------------------------------
+# Editor directories and files
+# --------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --------------------------------------------------
+# System files (MacOS, etc.)
+# --------------------------------------------------
 .DS_Store
